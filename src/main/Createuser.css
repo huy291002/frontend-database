@@ -1,0 +1,38 @@
+.p-3 {
+    padding: spacer !important;
+  }
+.centered{
+  justify-content: center;
+}
+body{
+  height: 100%;
+  margin: 0;
+}
+.bg1{
+background-image: url("/src/asset/background-db.jpg");
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.widthofinput{
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; 
+  
+  background-color: white;
+  font-weight: bold;
+}
+.content{
+  display: flex;
+  margin-left: 500px;
+  padding-top: 100px;
+}

@@ -2,9 +2,9 @@
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import Login from "./Login";
-import Createuser from "./Createuser"
+import Home from "./main/Home";
+import Login from "./main/Login";
+import Createuser from "./main/Createuser"
 export default function App() {
   return (
     <div className="home"> 

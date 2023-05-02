@@ -1,0 +1,37 @@
+.sizeofbox{
+    width: 30%;
+}
+.mt-3{
+    margin-top: 3;
+}
+body{
+    height: 100%;
+    margin: 0;
+  }
+.bg{
+background-image: url("/src/asset/background-db.jpg");
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.widthinput{
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; 
+    
+    background-color: white;
+    font-weight: bold;
+}
+.contain{
+    display: flex;
+    margin-left: 500px;
+    padding-top: 200px;
+}
